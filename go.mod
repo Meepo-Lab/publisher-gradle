@@ -1,12 +1,10 @@
 module github.com/ted-vo/publisher-gradle
 
-go 1.18
-
-replace github.com/ted-vo/semantic-release/v3 => ../semantic-release
+go 1.17
 
 require (
 	github.com/apex/log v1.9.0
-	github.com/ted-vo/semantic-release/v3 v3.1.2
+	github.com/ted-vo/semantic-release/v3 v3.2.0
 )
 
 require (
