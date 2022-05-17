@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -euo pipefail
+
+pluginDir=".semrel/$(go env GOOS)_$(go env GOARCH)/publisher-gradle/1.0.0/"
+[[ ! -d "$pluginDir" ]] && {
+  echo "creating $pluginDir"
+  mkdir -p $pluginDir
+}
+
+go build -o $pluginDir/publisher-gradle ./cmd/publisher-gradle
