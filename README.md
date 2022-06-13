@@ -14,4 +14,4 @@ Use this plugin by enabling it via `--publisher gradle`.
 
 The [MIT License (MIT)](http://opensource.org/licenses/MIT)
 
-Copyright © 2022 [Ted Vo](dev.nxonxon)
+Copyright © 2022 [Ted Vo](https://tedvo.dev/)
